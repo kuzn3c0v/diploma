@@ -1,0 +1,200 @@
+
+.textarea-input{
+    outline:none;
+    border: 0;
+    resize:none;
+    width: 100%;
+    height: 60px;
+    font-size: large;
+    padding: 7px;
+}
+
+.textarea-area{
+    background-color: white;
+    height: 60px;
+}
+
+#feed-panel{
+    margin: 5px 0 0 0;
+}
+
+#feed-panel span{
+    margin-left: 15px;
+}
+
+.mce-path {
+    display: none !important;
+}
+
+.textarea-buttons-panel{
+    background-color: white;
+    margin-top: 5px;
+    display: none;
+}
+
+#feed-whom{
+    padding: 15px;
+    margin: 0;
+}
+
+#whom-well{
+    padding: 5px 5px 0 5px;
+    margin: 0;
+}
+
+/* Иконка контактов */
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    margin-bottom: 5px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: #212121;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #CF000F;
+    transition: all 0.5s;
+}
+
+/* ---------------- */
+
+#feed-add-btn{
+    border-radius: 25px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: #656D78;
+}
+
+#feed-add-btn:hover{
+    background-color: #EEEEEE;
+    color: #212121;
+    transition: all 1s;
+}
+/* Ссылка на регистрацию */
+.lnk-add-new-emp{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    height: 45px;
+}
+
+.lnk-add-new-emp a{
+    font-size: small;
+    color: #C1C3C6;
+    text-decoration: none;
+}
+
+.lnk-add-new-emp a:hover{
+    font-size: medium;
+    color: white;
+    transition: all 1.5s;
+}
+
+/* Страница с ифно, если пользователь зарегистрирован, но не подтвержден  */
+
+.div-success{
+    margin: 8% 25% 8% 25%;
+    color: white;
+}
+
+.div-success .fa-info-circle{
+    padding-left: 40%;
+    color: #BFBFBF;
+}
+
+/* Профиль сотрудника */
+.profile-row{
+    position: relative;
+    background-color: white;
+    margin: 20px 0 20px 0;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.profile-string{
+    margin: 0 0 4px 0;
+}
+
+.profile-string > .col-md-5{
+    text-align: right;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .profile-string > .col-md-5{
+        text-align: left;
+    }
+}
+
+.profile-string > .col-md-7{
+    padding-left: 10px;
+}
+
+.profile-string h6, .profile-string h5{
+    margin: 0;
+    height: 25px;
+}
+
+#profile-label{
+    background-color: #6C7A89;
+}
+
+.my-panel{  /* todo передлеать, футер в зависимости от хидера */
+    background-color: #eceff3;
+    min-height: 650px;
+}
+
+/* Таблица для вывода списка сотрудников */
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    margin-top: 15px;
+    background-color: white;
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+    cursor:pointer;
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #4D8FAC;
+    color: white;
+}
+
+/*---------------------------*/
+
+#prof-tooltip{
+    margin-left: 70%;
+}
+
